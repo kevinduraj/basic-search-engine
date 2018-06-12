@@ -25,7 +25,7 @@ public class App {
         System.out.println("apple document offset     : " + index.get("apple"));
         System.out.println("orange document offset    : " + index.get("orange"));
         System.out.println("carrot document offset    : " + index.get("carrot"));
-        System.out.println("artichoke document offset : " + index.get("artichokes"));
+        System.out.println("artichoke document offset : " + index.get("artichoke"));
 
         System.out.println();
 
