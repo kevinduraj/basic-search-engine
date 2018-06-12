@@ -28,7 +28,7 @@ public class App {
         
         System.out.println("broccoli document offsets : " + index.get("broccoli"));
         // broccoli document offsets : 10001000
-        // we know that broccoli is document 1 and 5
+        // Now, we know that broccoli is document 1 and 5
 
         System.out.println();
 
