@@ -11,24 +11,16 @@ public class App {
 
         BTree<String, String> index = new BTree<>();
 
-        index.put("aaaa", "0000");
-        index.put("bbbb", "0001");
-        index.put("cccc", "0010");
-        index.put("dddd", "0011");
-        index.put("eeee", "0100");
-        index.put("ffff", "0101");
-        index.put("gggg", "0110");
-        index.put("hhhh", "0111");
-        index.put("eeee", "1000");
-        index.put("jjjj", "1001");
-        index.put("kkkk", "1010");
-        index.put("llll", "1011");
-        index.put("mmmm", "1100");
+        index.put("apple"     , "10000000");  // indexing terms in document 1
+        index.put("orange"    , "01000000");  // indexing terms in document 2
+        index.put("cucumber"  , "00100000");  // indexing terms in document 3
+        index.put("carrot"    , "00010000");  // indexing terms in document 4
+        index.put("artichokes", "00010000");  // indexing terms in document 4
 
-        System.out.println("aaaa: " + index.get("aaaa"));
-        System.out.println("bbbb: " + index.get("bbbb"));
-        System.out.println("cccc: " + index.get("cccc"));
-        System.out.println("mmmm: " + index.get("mmmm"));
+        System.out.println("apple: " + index.get("apple"));
+        System.out.println("orange: " + index.get("orange"));
+        System.out.println("carrot: " + index.get("carrot"));
+        System.out.println("artichokes: " + index.get("artichokes"));
 
         System.out.println();
 
