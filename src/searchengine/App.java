@@ -11,15 +11,15 @@ public class App {
 
         BTree<String, String> index = new BTree<>();
 
-        index.put("apple"     , "10000000");  // indexing terms in document 1
-        index.put("orange"    , "01000000");  // indexing terms in document 2
-        index.put("cucumber"  , "00100000");  // indexing terms in document 3
-        index.put("carrot"    , "00010000");  // indexing terms in document 4
-        index.put("artichokes", "00010000");  // indexing terms in document 4
+        index.put("apple"     , "10000000");  // indexing term in document 1
+        index.put("orange"    , "01000000");  // indexing term in document 2
+        index.put("cucumber"  , "00100000");  // indexing term in document 3
+        index.put("carrot"    , "00010000");  // indexing term in document 4
+        index.put("artichokes", "00010000");  // indexing term in document 4
 
-        System.out.println("apple: " + index.get("apple"));
-        System.out.println("orange: " + index.get("orange"));
-        System.out.println("carrot: " + index.get("carrot"));
+        System.out.println("apple:      " + index.get("apple"));
+        System.out.println("orange:     " + index.get("orange"));
+        System.out.println("carrot:     " + index.get("carrot"));
         System.out.println("artichokes: " + index.get("artichokes"));
 
         System.out.println();
