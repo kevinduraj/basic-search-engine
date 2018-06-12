@@ -26,10 +26,6 @@ public class App {
 
         System.out.println("size:    " + index.size());
         System.out.println("height:  " + index.height());
-
-        System.out.println("-----------------------------");
-        System.out.println(st);
-        System.out.println("-----------------------------");
     }
     /*--------------------------------------------------------------------------------------------*/
 }
