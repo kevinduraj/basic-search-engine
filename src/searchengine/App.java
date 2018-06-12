@@ -17,10 +17,10 @@ public class App {
         index.put("carrot"    , "00010000");  // indexing term in document 4
         index.put("artichokes", "00010000");  // indexing term in document 4
 
-        System.out.println("apple:      " + index.get("apple"));
-        System.out.println("orange:     " + index.get("orange"));
-        System.out.println("carrot:     " + index.get("carrot"));
-        System.out.println("artichokes: " + index.get("artichokes"));
+        System.out.println("apple document offset      : " + index.get("apple"));
+        System.out.println("orange document offset     : " + index.get("orange"));
+        System.out.println("carrot document offset     : " + index.get("carrot"));
+        System.out.println("artichokes document offset : " + index.get("artichokes"));
 
         System.out.println();
 
