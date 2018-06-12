@@ -18,10 +18,10 @@ public class App {
         st.put("eeee", "0100");
         st.put("ffff", "0101");
         st.put("gggg", "0110");
-        st.put("hhhh", "1000");
-        st.put("eeee", "1001");
-        st.put("jjjj", "1010");
-        st.put("kkkk", "1011");
+        st.put("hhhh", "0111");
+        st.put("eeee", "1000");
+        st.put("jjjj", "1001");
+        st.put("kkkk", "1010");
         st.put("llll", "1011");
         st.put("mmmm", "1100");
 
