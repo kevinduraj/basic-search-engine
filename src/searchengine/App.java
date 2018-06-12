@@ -22,15 +22,14 @@ public class App {
         // These changes cause indexing to slow down as more documents are added.
         index.put("broccoli",  "10001000");  // indexing term in document 5
         
+        // Output: broccoli document offsets : 10001000
+        // Now, we know that broccoli is document 1 and 5        
+        System.out.println("broccoli document offsets : " + index.get("broccoli"));
+
+        
         System.out.println("apple document offset     : " + index.get("apple"));
         System.out.println("orange document offset    : " + index.get("orange"));
         System.out.println("carrot document offset    : " + index.get("carrot"));
-        
-        System.out.println("broccoli document offsets : " + index.get("broccoli"));
-        // broccoli document offsets : 10001000
-        // Now, we know that broccoli is document 1 and 5
-
-        System.out.println();
 
         System.out.println("size:    " + index.size());
         System.out.println("height:  " + index.height());
