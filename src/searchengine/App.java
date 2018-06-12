@@ -18,7 +18,7 @@ public class App {
         index.put("carrot"   , "00010000");  // indexing term in document 4
         index.put("artichoke", "00010000");  // indexing term in document 4
         
-        // Because we add broccoli in document 1 and now at document 5 Bitmap signarure changes
+        // Because we add broccoli in document 1 and document 5 bitmap signature changes
         // These changes cause indexing to slow down as more documents with the same terms are added
         index.put("broccoli",  "10001000");  // indexing term in document 5
         
